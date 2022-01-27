@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.lachs{
+    background-color: lightpink;
+}
+.yellow{
+    background-color: lightgoldenrodyellow;
+}
+.mint{
+    background-color: mediumaquamarine;
+}
+a{
+    color: unset;
+    text-decoration: unset;
+}
+div{
+    position: relative;
+}
+.fas{
+    position: absolute;
+    font-size: 3rem;
+    top:140%;
+    left: 35%;
+    animation-name: bounce;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce{
+    0% {
+        top:140%;
+    }
+    50% {
+        top: 200%;
+        opacity: 0.1;
+    }
+    100% {
+        top:140%;
+    }
+}
